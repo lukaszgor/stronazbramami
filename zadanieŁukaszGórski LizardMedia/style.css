@@ -1,0 +1,230 @@
+body {
+    padding: 50px;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    cursor: pointer;
+}
+
+.leftsidenav {
+    padding: 25px;
+    background-color: white;
+    width: 250px;
+    border: 1px solid #f0f0f0;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.leftdiv {
+    padding: 20px;
+}
+
+.oneheadertext {
+    font-size: 40px;
+}
+
+.twoheadertext {
+    font-size: 20px;
+}
+
+.graytheme {
+    background-color: #bcb8b8;
+    width: 250px;
+    height: 50px;
+    padding: 5px;
+    border: 0.5px solid #bcb;
+    font-size: 8px;
+}
+
+.otherheight {
+    height: 100px;
+}
+
+.day {
+    text-align: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 222px;
+    top: -42px;
+    background-color: #191616;
+    /*    min-width: 160px;*/
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 812px;
+    margin-bottom: 5px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+    display: block;
+}
+/*///////////*/
+.inside {
+    position: relative;
+    width: 180px;
+    height: 130px;
+    margin: 10px;
+    
+    display:inline-block;
+    padding-top: 80px;
+    padding-left: 10px;
+} 
+.inside:before {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    border-top: 0.1px solid white;
+    border-left: 1px solid white;
+}
+.outside:after {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+} 
+.inside:hover {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(dom.jpg);
+    background-size: cover;
+}
+
+
+.inside p{
+    font-size: 7px;
+    color: white;
+    
+}
+.inside strong{
+    font-size: 8px;
+}
+#system {
+    color: rgba(0, 0, 0, 0);
+}
+
+
+.leftsidenav:hover {
+    background-color: #191616;
+    color: white;
+    border-right: 4px solid orange;
+}
+
+.firstactual {
+    padding: 25px;
+}
+
+#aktualnosci {
+    font-size: 11px;
+}
+
+.zobacz {
+    border: 1px solid orange;
+    background-color: white;
+    overflow: none;
+    color: orange;
+    transition: 1s;
+}
+
+.zobacz:hover {
+    background-color: orange;
+    color: black;
+}
+
+.mb {
+    background-image: url(MB-Slide-1.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.fa-plus-circle {
+    color: orange;
+    position: relative;
+    left: 250px;
+    top: 70px;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+/* The actual tooltip */
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #cebdbd;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: -25px;
+    left: 250px;
+    margin-left: -80px;
+}
+
+
+/* Tooltip arrow */
+
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #cebdbd transparent transparent transparent;
+}
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+/* Add animation tooltip */
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+

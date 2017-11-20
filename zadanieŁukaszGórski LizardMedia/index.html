@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>zadanie</title>
+
+    <link href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+
+                <nav>
+                    <ul>
+                        <ul class="leftsidenav">
+                            <spam>HOME</spam>
+                        </ul>
+                        <ul class="leftsidenav">
+                            <spam>O FIRMIE</spam>
+                        </ul>
+                        <ul class="leftsidenav dropbtn " onclick="myFunctionOferta()">
+                            <spam>OFERTA</spam>
+
+                            <div class="dropdown">
+
+                                <div id="mydropdown" class="dropdown-content">
+
+                                    <div class="inside">
+
+                                        <p>SYSTEMY</p>
+                                        <p> <strong>OKIENNO-DZWIOWE</strong></p>
+                                        <span class="outside"></span></div>
+
+
+
+                                    <div class="inside">
+                                        <p>SYSTEMY</p>
+                                        <p><strong>FASADOWE</strong></p><span class="outside"></span></div>
+
+
+                                    <div class="inside">
+                                        <p>SYSTEMY</p>
+                                        <p> <strong>ROLETY,MOSKITIERY I OKIENNICE</strong></p><span class="outside"></span></div>
+
+
+                                    <div class="inside">
+                                        <p>SYSTEMY</p>
+                                        <p> <strong>BRAM</strong></p>
+                                        <span class="outside"></span></div>
+
+
+                                    <div class="inside">
+                                        <p>SYSTEMY</p>
+                                        <p> <strong>PRZECIWPOŻAROWE I ODDYMIAJĄCE</strong></p><span class="outside"></span></div>
+
+
+                                    <div class="inside">
+                                        <p>BUDOWNICTWO</p>
+                                        <p><strong>PASYWNE I ENERGOOSZCZĘDNE</strong></p><span class="outside"></span></div>
+
+
+                                    <div class="inside">
+                                        <p>KONSTRUKCJE</p>
+                                        <p> <strong>ANTYWŁAMANIOWE</strong></p><span class="outside"></span></div>
+
+
+                                    <div class="inside">
+                                        <p>ROZWIĄZANIA</p>
+                                        <p> <strong>INDYWIDUALNE</strong></p><span class="outside"></span></div>
+
+
+                                    <div class="inside">
+                                        <p>OGRODY</p>
+                                        <p><strong>ZIMOWE</strong></p><span class="outside"></span></div>
+
+
+                                    <div class="inside">
+                                        <p>SYSTEMY</p>
+                                        <p><strong>POZOSTAŁE</strong></p><span class="outside"></span></div>
+
+                                    <div class="inside">
+                                        <p id="system">SYSTEMY</p>
+                                        <p c><strong>OPRZYRZĄDOWANIE</strong></p><span class="outside"></span></div>
+
+
+                                    <div class="inside">
+                                        <p>LAKIEROWANIE</p>
+                                        <p><strong>PROSZKOWE</strong></p><span class="outside"></span></div>
+
+
+
+                                    <!--                                    ////-->
+
+
+
+
+                                </div>
+                            </div>
+
+
+                        </ul>
+                        <ul class="leftsidenav">
+                            <spam>REALIZACJE</spam>
+                        </ul>
+                        <ul class="leftsidenav">
+                            <spam>DO POBRANIA</spam>
+                        </ul>
+                        <ul class="leftsidenav">
+                            <spam>MEDIA</spam>
+                        </ul>
+                        <ul class="leftsidenav">
+                            <spam>KONTAKT</spam>
+                        </ul>
+                        <div class="graytheme firstactual">
+                            <spam id="aktualnosci">AKTUALNOŚCI </spam>&ensp;&ensp;
+                            <spam> Lorem ipsum dolor sit amet.</spam>
+                        </div>
+                        <div class="graytheme">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p class="day">wtorek</p>
+                        </div>
+                        <div class="graytheme">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet fugit totam, molestia</p>
+                            <p class="day">wtorek</p>
+                        </div>
+                        <div class="graytheme otherheight">
+                            <p class="day"><i class="fa fa-circle-o" aria-hidden="true"></i>&ensp;<i class="fa fa-circle-o" aria-hidden="true"></i>&ensp;<i class="fa fa-circle-o" aria-hidden="true"></i></p>
+                        </div>
+                    </ul>
+
+                </nav>
+            </div>
+            <div class="col-md-9 leftdiv">
+                <div class="row">
+                    <header class="col-md-12">
+                        <p class="oneheadertext">MB-59 SLIDE</p>
+                        <p class="twoheadertext">SYSTEM DRZWI BALKONOWYCH PRZESUWNYCH______</p>
+                    </header>
+
+                    <section class="col-md-6">
+                        <button class="zobacz">ZOBACZ</button>
+                    </section>
+
+                    <article class="col-md-6 mb">
+
+
+                        <a href="#" class="popup" onclick="myFunctiontooltip()"><i class="fa fa-plus-circle fa-2x" aria-hidden="true"></i> <span class="popuptext" id="myPopup">
+               <p>PPPPPP</p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nam nesciunt incidunt provident, sequi ab.</span></a>
+
+
+
+                    </article>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--    Script//////////////////////////////////////////////////////////////-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- BootstrapJavaScriptadd lok -->
+    <script src="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
